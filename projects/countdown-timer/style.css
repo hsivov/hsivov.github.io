@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;  
+}
+
+body {
+    background-image: url("erwan-hesry-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00503c;
+    /* color: #274730; */
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 7rem;
+    font-weight: bold;
+    /* background-color: #fff; */
+    padding: 5px 25px;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    background-color: #fff;
+    border: 1em solid #00503c;
+}
+
+.large-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.timerEl{
+    text-align: center;
+}
+
+.timerEl span{
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 5rem;
+    color: black;
+}
+
+a:link {
+    color: orange;
+}

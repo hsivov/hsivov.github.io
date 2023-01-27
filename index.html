@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>My Projects Web Page</title>
 </head>
+
 <body>
-    <h1>Hello!</h1>
+    <header>
+        <h1>Hello!</h1>
+        <hr>
+    </header>
+    <main>
+        <p>
+            This site was created to store and provide live links to the projects I am doing while learning web
+            development using some of the most popular technologies.
+        </p>
+        <section class="projects">
+            <article class="project">
+                <div class="container">
+                    <img src="projects/timer.jpg" alt="project-tumb">
+                    <p class="project_info">JS Countdown timer application.</p>
+                </div>
+
+                <div class="btn">
+                    <button id="btn-live" class="live-link">Live Demo</button>
+
+                    <script type="text/javascript">
+                        document.getElementById("btn-live").onclick = function () {
+                            location.href="/projects/countdown-timer/countdown-timer.html";
+                        };
+                    </script>
+                    <button class="code-link">
+                            <i class="fa-brands fa-github"></i> GitHub
+                    </button>
+                </div>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
