@@ -66,3 +66,7 @@ button {
     background-color: #000;
     color: #fff;
 }
+
+footer p {
+    text-align: center;
+}
