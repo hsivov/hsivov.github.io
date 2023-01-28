@@ -20,24 +20,40 @@
             This site was created to store and provide live links to the projects I am doing while learning web
             development using some of the most popular technologies.
         </p>
+        <h2>Projects</h2>
+        <hr>
         <section class="projects">
             <article class="project">
+                <header class="article-header">
+                    <h3>Countdown Timer</h3>
+                </header>
                 <div class="container">
-                    <img src="projects/timer.jpg" alt="project-tumb">
+                    <img src="projects/project1-thumb.jpg" alt="project-tumb">
                     <p class="project_info">JS Countdown timer application.</p>
                 </div>
+
+                <p class="technology">Used technologies: <span>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </span></p>
 
                 <div class="btn">
                     <button id="btn-live" class="live-link">Live Demo</button>
 
                     <script type="text/javascript">
                         document.getElementById("btn-live").onclick = function () {
-                            location.href="/projects/countdown-timer/countdown-timer.html";
+                            location.href = "/projects/countdown-timer/countdown-timer.html";
                         };
                     </script>
-                    <button class="code-link">
-                            <i class="fa-brands fa-github"></i> GitHub
-                    </button>
+                    <button id="btn-code" class="code-link">
+                        <i class="fa-brands fa-github"></i> GitHub</button>
+
+                    <script type="text/javascript">
+                        document.getElementById("btn-code").onclick = function () {
+                            location.href = "https://github.com/hsivov/Javascript-Practice/tree/main/countdown-timer";
+                        };
+                    </script>
                 </div>
 
             </article>
@@ -45,7 +61,10 @@
     </main>
     <footer>
         <p>
-            Photo by <a href="https://unsplash.com/@fempreneurstyledstock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Leone Venter</a> on <a href="https://unsplash.com/backgrounds/apps/website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            Photo by <a
+                href="https://unsplash.com/@fempreneurstyledstock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Leone
+                Venter</a> on <a
+                href="https://unsplash.com/backgrounds/apps/website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </p>
     </footer>
 </body>
