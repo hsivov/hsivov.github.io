@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: #d4e6eb;
+    background-image: linear-gradient(90deg,
+     #b4c4db 0%, #f5f7fa 100%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.question-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px #787878;
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+}
+
+.question-header{
+    padding: 4rem;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+button{
+    background-color: #0984e3;
+    color: white;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 2rem;
+    border: none;
+}
+
+button:hover{
+    background-color: #085896;
+}

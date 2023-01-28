@@ -15,7 +15,13 @@ body {
     background-image: url('leone-venter-unsplash.jpg');
     background-size: cover;
     max-width: 1400px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .article-header {
@@ -23,9 +29,16 @@ body {
 }
 
 .project {
-    max-width: 400px;
+    max-width: 460px;
     border: 2px solid #c8c8c6;
     border-radius: 8px;
+    margin: 10px;
+}
+
+.project .info {
+    padding: 0 20px;
+    text-align: justify;
+    min-height: 120px;
 }
 
 .project .technology {
@@ -39,11 +52,11 @@ span {
 .container {
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 img {
-    width: 50%;
+    width: 100%;
     border: 8px solid white;
     margin: 20px;
 }
@@ -52,6 +65,7 @@ img {
     padding: 5px 20px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
 button {
