@@ -49,16 +49,10 @@ span {
     font-size: 30px;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 img {
     width: 100%;
-    border: 8px solid white;
-    margin: 20px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .btn {
