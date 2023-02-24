@@ -6,104 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>My Projects Web Site</title>
 </head>
 
 <body>
     <header>
-        <h1>Hello_</h1>
-        <hr>
+        <h1 class="header-title">My DevPage</h1>
+        <nav class="navbar">
+            <ul role="list">
+                <li>Projects</li>
+                <li>About me</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     </header>
+    <img src="leone-venter-unsplash.jpg" alt="bg-img" class="bg-img">
     <main>
-        <p>
-            This site was created to store and provide live links to the projects I am doing while learning web
-            development using some of the most popular technologies.
+        <h1 class="title">Hello_</h1>
+        <hr>
+        <p class="info">
+            Hi I created this website durring the HTML and CSS course which is part of Web Development curriculum. 
+            Later I decided to use this site like repository for my other web projects with links for live preview and open access to their source code.
+            Some of the most popular development technologies were used to build them.
         </p>
-        <h2>Projects</h2>
+        <h2 class="subtitle">Projects</h2>
         <hr>
         <section class="projects">
-            <article class="project">
-
-                <div class="content">
+                <article class="project">
                     <img src="media/project1-thumb.jpg" alt="project-tumb">
-                    <h3>Countdown Timer</h3>
-                    <p>JS Countdown timer application.</p>
-                </div>
-
-                <p class="technology">Used technologies: <span>
-                        <i class="fa-brands fa-html5"></i>
-                        <i class="fa-brands fa-css3"></i>
-                        <i class="fa-brands fa-square-js"></i>
-                    </span></p>
-
-                <div class="links">
-
-                    <a href="/projects/countdown-timer/countdown-timer.html" target="_blank">Live Demo</a>
-                    <a href="https://github.com/hsivov/Javascript-Practice/tree/main/countdown-timer" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-                    
-                </div>
-
-            </article>
-            <article class="project">
-                
-                
-                <div class="content">
+                    <div class="content">
+                        <h3>Countdown Timer</h3>
+                        <p class="desc">JS Countdown timer application.</p>
+                        <p class="technology">Used technologies:</p>
+                            <div class="icons">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-square-js"></i>
+                                <i class="fa-brands fa-css3"></i>
+                            </div>
+                        <div class="links">
+                            <a href="/projects/countdown-timer/countdown-timer.html" target="_blank">Live Demo</a>
+                            <a href="https://github.com/hsivov/Javascript-Practice/tree/main/countdown-timer" target="_blank"><i
+                                    class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project">
                     <img src="media/project2-thumb.jpg" alt="project-tumb">
-                    <h3>Quiz</h3>
-                    <p>Simple JS Quiz application. You will have to answer several tech related questions
-                        and will get 1 point for each correct answer. At the end of the Quiz, your total score will be
-                        displayed.</p>
-                </div>
-
-                <p class="technology">Used technologies: <span>
-                        <i class="fa-brands fa-html5"></i>
-                        <i class="fa-brands fa-css3"></i>
-                        <i class="fa-brands fa-square-js"></i>
-                    </span></p>
-
-                    <div class="links">
-
-                        <a href="/projects/quiz/quiz.html" target="_blank">Live Demo</a>
-                        <a href="https://github.com/hsivov/Javascript-Projects/tree/main/quiz" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-                        
+                    <div class="content">
+                        <h3>Quiz</h3>
+                        <p class="desc">JS Quiz application.</p>
+                        <p class="technology">Used technologies:</p>
+                        <div class="icons">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                            <i class="fa-brands fa-css3"></i>
+                        </div>
+                        <div class="links">
+                            <a href="/projects/quiz/quiz.html" target="_blank">Live Demo</a>
+                            <a href="https://github.com/hsivov/Javascript-Projects/tree/main/quiz" target="_blank"><i
+                                    class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project">
+                    <img class="thumb" src="media/todo-thumb.jpg" alt="project-thumb">
+                    <div class="content">
+                        <h3>Todo Application</h3>
+                        <p class="desc">This todo application is a classic example of basic CRUD web application</p>
+                        <p class="technology">Used technologies:</p>
+                        <div class="icons">
+                            <i class="fab fa-java"></i>
+                            <img src="media/spring.svg" alt="Spring Boot Icon">
+                            <img src="media/thymeleaf.png" alt="Thymeleaf logo">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <div class="links">
+                            <a href="http://hristo.switzerlandnorth.cloudapp.azure.com:8080/todo-app/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/hsivov/Todo-App" target="_blank"><i class="fa-brands fa-github"></i>
+                                GitHub</a>
+                        </div>
                     </div>
 
             </article>
-            <article class="project">
-                
-                
-                <div class="content">
-                    <img src="media/todo-thumb.jpg" alt="project-tumb">
-                    
-                    <h3>Todo Application</h3>
-
-                    <p>This todo application is a classic example of basic CRUD web application</p>
-                </div>
-
-                <p class="technology">Used technologies: <span>
-                        <i class="fab fa-java"></i>
-                        <img class="icon" src="media/spring.svg" alt="Spring Boot Icon">
-                        <img class="icon" src="media/thymeleaf.png" alt="Thymeleaf logo">
-                        <i class="fa-brands fa-html5"></i>
-                        <i class="fab fa-bootstrap"></i>
-                    </span></p>
-
-                    <div class="links">
-
-                        <a href="/todo-app" target="_blank">Live Demo</a>
-                        <a href="https://github.com/hsivov/Todo-App" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-                        
+                <article class="project">
+                    <img class="thumb" src="media/tmdb-thumb.jpg" alt="project-thumb">
+                    <div class="content">
+                        <h3>The Movie DB Application</h3>
+                        <p class="desc">Fetch data from the moviedb API and list it.</p>
+                        <p class="technology">Used technologies:</p>
+                        <div class="icons">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                            <i class="fa-brands fa-css3"></i>
+                        </div>
+                        <div class="links">
+                            <a href="projects/movie-app/index.html" target="_blank">Live Demo</a>
+                            <a href="https://github.com/hsivov/Javascript-Projects/tree/main/movie-app" target="_blank"><i class="fa-brands fa-github"></i>
+                                GitHub</a>
+                        </div>
                     </div>
-
-            </article>
+                </article>
         </section>
     </main>
     <footer>
         <p>
             Photo by <a
                 href="https://unsplash.com/@fempreneurstyledstock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Leone
-                Venter</a>, <a href="https://unsplash.com/@hugobarbosa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hugo  Barbosa</a> on <a
+                Venter</a>, <a
+                href="https://unsplash.com/@hugobarbosa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hugo
+                Barbosa</a> on <a
                 href="https://unsplash.com/backgrounds/apps/website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </p>
     </footer>

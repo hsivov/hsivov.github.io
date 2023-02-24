@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="dropdown">
+                <button id="dropbtn" onclick="dropdownMenu()" class="dropbtn">Popular</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a id="popular" href="#" onclick="javacsript:getMoviesByRequest('popular')">Popular</a>
+                    <a id="top_rated" href="#" onclick="javascript:getMoviesByRequest('top_rated')">Top Rated</a>
+                    <a id="upcoming" href="#" onclick="javascript:getMoviesByRequest('upcoming')">Upcoming</a>
+                </div>
+            </div>
+            <a href="https://www.themoviedb.org"><img src="./Asset 4.svg" alt="TMDB" height="50px"></a>
+            <form id="form">
+                <input type="text" id="search" placeholder="Search" class="search">
+            </form>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <div id="movie-popup" class="movie-details-container hidden">
+
+    </div>
+    <footer>
+        <div class="footer">
+            <button id="prev" class="nav" onclick="prevPage()">
+                <i class="fa-solid fa-circle-arrow-left"></i></button>
+            <p id="pages"></p>
+            <button id="next" class="nav" onclick="nextPage()">
+                <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+        </div>
+    </footer>
+</body>
+
+</html>
