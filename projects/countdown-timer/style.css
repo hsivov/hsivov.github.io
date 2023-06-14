@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("erwan-hesry-unsplash.jpg");
+    background-image: url("w-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    color: #00503c;
+    color: #006633;
     /* color: #274730; */
     margin: 0;
 }
@@ -32,7 +32,7 @@ h1 {
     padding: 20px;
     justify-content: center;
     background-color: #fff;
-    border: 1em solid #00503c;
+    border: 1em solid #006633;
 }
 
 .large-text{
@@ -56,5 +56,5 @@ footer {
 }
 
 a:link {
-    color: orange;
+    color: #4c2178;
 }

@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>My Projects Web Site</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Projects DevPage</title>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <h1 class="header-title">My DevPage</h1>
         <nav class="navbar">
             <ul role="list">
-                <li>Projects</li>
+                <li><a href="#section">Projects</a></li>
                 <li>About me</li>
                 <li>Contact</li>
             </ul>
@@ -33,7 +34,7 @@
         </p>
         <h2 class="subtitle">Projects</h2>
         <hr>
-        <section class="projects">
+        <section id="section" class="projects">
                 <article class="project">
                     <img src="media/project1-thumb.jpg" alt="project-tumb">
                     <div class="content">
@@ -84,7 +85,7 @@
                             <i class="fab fa-bootstrap"></i>
                         </div>
                         <div class="links">
-                            <a href="http://sivov.switzerlandnorth.cloudapp.azure.com:8080/todo-app/" target="_blank">Live Demo</a>
+                            <a href="http://sivov.westeurope.cloudapp.azure.com/todo-app/" target="_blank">Live Demo</a>
                             <a href="https://github.com/hsivov/Todo-App" target="_blank"><i class="fa-brands fa-github"></i>
                                 GitHub</a>
                         </div>
@@ -109,16 +110,32 @@
                         </div>
                     </div>
                 </article>
+                <article class="project">
+                    <img class="thumb" src="media/guf-thumb.jpg" alt="project-thumb">
+                    <div class="content">
+                        <h3>GitHub User Finder Application</h3>
+                        <p class="desc">Retreive data about users in GitHub by username.</p>
+                        <p class="technology">Used technologies:</p>
+                        <div class="icons">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                            <i class="fa-brands fa-css3"></i>
+                        </div>
+                        <div class="links">
+                            <a href="projects/github-user-finder/github-user-finder.html" target="_blank">Live Demo</a>
+                            <a href="https://github.com/hsivov/Javascript-Apps/tree/main/github-user-finder" target="_blank"><i class="fa-brands fa-github"></i>
+                                GitHub</a>
+                        </div>
+                    </div>
+                </article>
         </section>
     </main>
     <footer>
         <p>
             Photo by <a
                 href="https://unsplash.com/@fempreneurstyledstock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Leone
-                Venter</a>, <a
-                href="https://unsplash.com/@hugobarbosa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hugo
-                Barbosa</a> on <a
-                href="https://unsplash.com/backgrounds/apps/website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                Venter</a> on
+                <a href="https://unsplash.com/backgrounds/apps/website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </p>
     </footer>
 </body>
