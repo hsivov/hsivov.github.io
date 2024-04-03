@@ -79,16 +79,16 @@ main .info {
 }
 
 section {
-    padding: 1rem 0;
+    /* padding: 1rem 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 4rem;
-    justify-items: center;
-    /* display: flex;
+    justify-items: center; */
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 2rem 0;
-    gap: 2rem; */
+    gap: 2rem;
 }
 
 .project {

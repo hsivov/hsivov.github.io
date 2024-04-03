@@ -1,4 +1,4 @@
-const eventDateString = "03 July 2023 10:00"
+const eventDateString = "14 June 2024 18:00"
 
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
